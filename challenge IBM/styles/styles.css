@@ -1,0 +1,283 @@
+p {
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
+    text-align: justify;
+}
+
+.font-bg-black {
+    color: rgb(255, 255, 255);
+}
+
+.bg-imgB {
+    background-color: rgb(0, 0, 0);
+}
+
+.icons {
+    width: 90px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+body {
+    max-width: 100%;
+    margin: auto;
+    width: 1240px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+}
+
+.solaris {
+    display: flex;
+    justify-content: center;
+    margin-top: -160px;
+    margin-bottom: -190px;
+}
+
+.links {
+    padding: 0px 0px 30px 0px;
+    box-sizing: border-box;
+    font-size: larger;
+}
+
+a {
+    padding: 0px 20px;
+    color: white;
+}
+
+
+
+/*entrada*/
+.container1 {
+    height: 390px;
+}
+
+.entrada {
+    width: 100%;
+}
+
+
+
+
+
+/*Qm somos?*/
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0px;
+    box-sizing: border-box;
+
+
+}
+
+.perfil {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.descricao {
+    padding: auto;
+    box-sizing: border-box;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 300px;
+
+}
+
+.fotos {
+    width: 160px;
+    height: 160px;
+    border-radius: 160px;
+    padding: 20px;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px #000000);
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 10px;
+    border-right: 5px inset black;
+    border-left: 5px unset black;
+    border-radius: 40px;
+    box-shadow: 0px 10px 18px rgba(0, 0, 0, .5);
+
+
+}
+
+
+
+/*Entendimento?*/
+.container3 {
+    background-color: black;
+    display: flex;
+    padding: 80px 0px;
+    box-sizing: border-box;
+
+}
+
+.size-boneco {
+    padding: 20px 0px 20px 0px;
+    margin-right: -64px;
+    box-sizing: border-box;
+    width: 500px;
+}
+
+.txt-project {
+    box-sizing: border-box;
+    padding: 130px 0px 0px 48px;
+}
+
+.p-size {
+    font-size: 30px;
+}
+
+
+
+
+/*O projeto?*/
+.container4 {
+    display: flex;
+    padding: 80px 0px;
+    box-sizing: border-box;
+
+}
+
+.position-logo {
+    padding: 50px 0px 0px 0px;
+    box-sizing: border-box;
+}
+
+.size-logo {
+    width: 400px;
+}
+
+.position-txt {
+    box-sizing: border-box;
+    padding: 0px 40px;
+}
+
+.size-txt {
+    font-size: 30px;
+}
+
+
+
+
+
+/*Pull&smartcontract?*/
+.container5 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px;
+    box-sizing: border-box;
+
+}
+
+.alinhamento-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.alinhamento-s {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt-s {
+    margin-top: -6px;
+}
+
+.sec {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+    padding: 80px 0px;
+}
+
+
+
+
+
+
+/*bene&male?*/
+.bene-neg {
+    padding: 80px 0px;
+    box-sizing: border-box;
+}
+
+.container6 {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 80px 50px 80px;
+    box-sizing: border-box;
+}
+
+.icon1 {
+    width: 150px;
+    margin-bottom: -35px;
+}
+
+.bm-1 {
+    display: flex;
+
+}
+
+.alinhamento-i1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.bm-2 {
+    display: flex;
+}
+
+.alinhamento-i2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+
+
+/*Pitch*/
+.container7 {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 0px;
+    box-sizing: border-box;
+}
