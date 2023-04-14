@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/jss/assest/sty.css">
+	<link rel="shortcut icon" href="/imagens/logo.png" type="image/x-icon">
+	<title>Login Page</title>
+
+	<script>
+		function validateForm() {
+			var username = document.forms["loginForm"]["username"].value;
+			var password = document.forms["loginForm"]["password"].value;
+			if (username == "" || password == "") {
+				alert("Por favor coloque usuario e senha");
+				return false;
+			} else if (username == "nome" && password == "senha") {
+				alert("Login successful!");
+				window.location.href = "bem-vindo.html";
+				return false;
+			} else {
+				alert("inválida senha e/ou usuario");
+				return false;
+			}
+		}
+	</script>
+</head>
+
+<body>
+	<div class="container">
+		<div class="login">
+			<img src="/imagens/Solaris.png" alt="logo" class="solaris">
+			<div class="letter">
+				<form name="loginForm" onsubmit="return validateForm()" class="escrita" action="bem-vindo.html">
+						<label for="Usuario">Username:</label>
+						<input type="text" id="username" name="username">
+						<label for="Senha">Password:</label>
+						<input type="password" id="password" name="password">
+					<input type="submit" value="Login" class="button">
+				</form>
+			</div>
+		</div>
+	</div>
+
+	
+</body>
+
+</html>
