@@ -277,7 +277,17 @@ a {
 .container7 {
     background-color: black;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     padding: 80px 0px;
     box-sizing: border-box;
 }
+
+
+.arquitetura{
+    display: flex;
+    width: 600px;
+
+}
+
